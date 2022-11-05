@@ -20,7 +20,7 @@ public class BaseController {
 		model.addAttribute("message", "Welcome");
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);
-                System.ouot.println("hello chandra");
+                //System.ouot.println("hello chandra");
 		// Hello
 		return VIEW_INDEX;
 
